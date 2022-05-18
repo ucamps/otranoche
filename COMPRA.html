@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./compra-css.css">
+</head>
+<body>
+    
+<div class="modal">
+    <div class="modal__container">
+      <div class="modal__featured">
+       <a href="./discoteca-otra noche.html"> <button type="button" class="button--transparent button--close">
+        <svg class="nc-icon glyph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+            <g><path fill="#ffffff" d="M1.293,15.293L11,5.586L12.414,7l-8,8H31v2H4.414l8,8L11,26.414l-9.707-9.707 C0.902,16.316,0.902,15.684,1.293,15.293z"></path> </g></svg>
+          <span class="visuallyhidden">Return to Product Page</span>
+        </button></a>
+        <div class="modal__circle"></div>
+        <img src="./img/copa_de_gintonic_FINAL.png" class="modal__product" />
+      </div>
+      <div class="modal__content">
+        <h2>Datos de la tarjeta</h2>
+
+        <form>
+          <ul class="form-list">
+            <li class="form-list__row">
+              <label>Nombre </label>
+              <input type="text" name="" required="" />
+            </li>
+            <li class="form-list__row">
+              <label>Numero de tarjeta</label>
+              <div id="input--cc" class="creditcard-icon">
+                <input type="text" name="cc_number" required="" maxlength="16" />
+              </div>
+            </li>
+            <li class="form-list__row form-list__row--inline">
+              <div>
+                <label>data de expiracion</label>
+                <div class="form-list__input-inline">
+                  <input type="text" name="cc_month" placeholder="MM"   minlength="2" maxlength="2" required="" />
+                  <input type="text" name="cc_year" placeholder="YY"   minlength="2" maxlength="2" required="" />
+                </div>
+              </div>
+              <div>
+                <label>
+                  CVC
+
+                 
+                </label>
+                <input type="text" name="cc_cvc" placeholder="123"  minlength="3" maxlength="4" required="" />
+              </div>
+            </li>
+            <li class="form-list__row form-list__row--agree">
+              <label>
+                <input type="checkbox" name="save_cc" checked="checked">
+                Guardar mi tarjeta para futuras compras
+              </label>
+            </li>
+            <li>
+              <button type="submit" class="button" >PAGAR AHORA</button>
+            </li>
+          </ul>
+        </form>
+      </div> <!-- END: .modal__content -->
+    </div> <!-- END: .modal__container -->
+  </div> <!-- END: .modal -->
+</body>
+</html>

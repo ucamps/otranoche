@@ -1,0 +1,668 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(./cartelera);
+    width: 99%;
+    height: auto;
+}
+header img{
+    height:100% ;
+    width: 100%;
+    margin-bottom: -30px;
+}
+
+#logo{
+
+    background-image: url(./logo_paguina_web_otra_noche_2.png);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size:  100%;
+    margin-top: -7px;
+    margin-bottom: -40px;
+}
+div{
+    margin: 10px;
+    width: 350px;
+    height: 600px;  
+}
+
+footer{
+    text-align: center;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    background-color: rgba(75, 74, 74, 0.748);
+    padding-bottom: 20px;
+    width: 100%;
+    margin: -10px;
+    padding-top: 5px;
+    padding-right: 17px;
+}
+#principal{
+    position: fixed;
+}
+.link{
+    color:#ff2bae;
+    box-shadow: 2px 2px 2px 1px #f14ead;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: center;
+}
+    
+#local-cartel{
+    padding-top: 30px;
+    
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size:  100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 8px;
+
+}
+.link:hover{
+    color:white;
+    background-color: #ff92d5;
+}
+nav img{
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+}
+.local{
+    width:32%;
+    height: 300px;
+   
+    border: 5px solid #f14ead;
+    border-radius: 5px;
+}
+#local-cartel img{
+    width: 300px;
+    height: 550px;
+    border-radius: 40px;
+    border: 4px solid #ff2bae ;
+}
+#local-cartel img:hover{
+    transform: .2s; 
+    transform: scale(1.1);
+}
+.cartelera{
+    
+        display: flex;
+        justify-content:space-around;
+        margin-right: 30px;
+        margin-top: 25px;
+        width: 99%;
+        height:300px;
+}
+h1{
+    text-align: center;
+    color: white;   
+    font-size: 40px;
+}
+hr{
+    background-color: white;
+    border: 2px solid white;
+}
+.info-entrada{
+    background-color: white;
+    color: black;
+    width: 346px;
+    height: 105px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 100px;
+    margin-top: -117px;
+}
+
+.info-entrada p{
+    font-size: small;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.info-entrada img{
+    width: 14px;
+    height: auto;
+}
+.info-entrada h2{
+    margin-left: 10px;
+    font-size:large;  
+}
+a #copa{
+    width: 50px;
+    height: auto;
+    margin: 5px;
+    color: #f0f0f0;
+    
+}
+
+#otra{
+    width: 200px;
+    height: auto;
+}
+.entrada{
+ border-radius: 15px;
+    height: 130px;
+    width: 336px;
+    margin-left: 10px;
+    border: 5px solid white;
+}
+.grande{
+    height: 300px;
+    text-decoration: none;
+}
+
+.grande:hover{
+    transform: .2s; 
+    transform: scale(1.1);
+}
+ .merch{
+     background-color: white;
+     color: black;
+    text-align: center;
+    height: 350px;
+    border-radius: 50px;
+ }
+ .merch div{
+    position: relative;
+    right: 15px;
+ }
+ .merch a{
+     text-decoration: none;
+     text-align: center;
+     background-color: black;
+     color: white;
+     padding: 7px;
+     border-radius: 20px;
+     top: 20px;
+     position: relative;
+ }
+ .merch img{
+     width: 70%;
+     height: auto;
+     border-top-right-radius: 50px;
+     border-top-left-radius: 50px;
+     margin-top: 10px;
+     
+ }
+a{
+text-decoration: none;
+}
+#info-entrada p{
+    color: black;
+    
+}
+#info-entrada {
+    background-color: rgba(178, 178, 178, 0.677);
+    display:flex;
+    justify-content:center ;
+    width: 99%;
+    height: 250px;
+    border-radius: 70px;
+    color: black;
+}
+
+#info-entrada .icon{
+    width:10%;
+    height: auto;
+    
+   
+}
+.entrada-principal {
+    width: 60%;
+    height: 350px;
+    border-radius: 40px;
+    margin-top: -200px;
+    margin-bottom: 10px;
+}
+#numero{
+  height: 60px;
+  width: 60px;
+}
+form{
+margin: 20px;
+text-align: center;
+background-color: rgba(228, 228, 228, 0.677);
+color: black;
+border-radius: 70px;
+width: 80%;
+}
+label, input{
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+    
+#info-personal h2{
+    font-size: xx-large;
+
+}
+
+.compra-aqui-J div{
+    background-color: rgba(255, 255, 255, 0.677);
+    width: 50%;
+    height: 15%;
+    margin-bottom: 100px;
+    padding: 20px;
+    left: 23%;
+    position:relative;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: yellow;
+}
+.compra-aqui-J div p,h3,h4,h5{
+    margin-bottom: -10px;
+}
+h3{
+    margin-top: -10px;
+}
+.compra-aqui-J div p{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom:40px;
+    font-size: large;
+}
+h5{
+    position: relative;
+    bottom: -20px;
+}
+.compra-aqui-J div:hover{
+    border:2px solid #ff009d;
+    color: rgb(255, 255, 255);
+    background-color: #ff92d596;
+}
+
+.compra-aqui-V div{
+    background-color: rgba(255, 255, 255, 0.677);
+    width: 50%;
+    height: 15%;
+    margin-bottom: 100px;
+    padding: 20px;
+    left: 23%;
+    position:relative;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: rgb(101, 38, 116);
+}
+.compra-aqui-V div p,h3,h4,h5{
+    margin-bottom: -10px;
+}
+h3{
+    margin-top: -10px;
+}
+.compra-aqui-V div p{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom:40px;
+    font-size: large;
+}
+
+.compra-aqui-V div:hover{
+    border:2px solid #ff009d;
+    color: rgb(255, 255, 255);
+    background-color: #ff92d596;
+}
+
+.compra-aqui-S div{
+    background-color: rgba(255, 255, 255, 0.677);
+    width: 50%;
+    height: 15%;
+    margin-bottom: 100px;
+    padding: 20px;
+    left: 23%;
+    position:relative;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: rgb(0, 106, 0);
+}
+.compra-aqui-S div p,h3,h4,h5{
+    margin-bottom: -10px;
+}
+h3{
+    margin-top: -10px;
+}
+.compra-aqui-S div p{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom:40px;
+    font-size: large;
+}
+
+.compra-aqui-S div:hover{
+    border:2px solid #ff009d;
+    color: rgb(255, 255, 255);
+    background-color: #ff92d596;
+}
+#maps{
+    margin-top: 50px;
+    width: 99%;
+    height: auto;
+}
+
+.compra-aqui-D div{
+    background-color: rgba(255, 255, 255, 0.677);
+    width: 50%;
+    height: 15%;
+    margin-bottom: 100px;
+    padding: 20px;
+    left: 23%;
+    position:relative;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: red;
+}
+.compra-aqui-D div p,h3,h4,h5{
+    margin-bottom: -10px;
+}
+h3{
+    margin-top: -10px;
+}
+.compra-aqui-D div p{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom:40px;
+    font-size: large;
+}
+
+.compra-aqui-D div:hover{
+    border:2px solid #ff009d;
+    color: rgb(255, 255, 255);
+    background-color: #ff92d596;
+}
+iframe{
+    border-radius: 50px;
+}
+.contacto{
+    margin:1px;
+}
+#info{
+    margin-left: 40px;
+}
+
+
+
+@media screen and (max-width: 600px) {        
+  body{
+      width: 100%;
+      height: 120%;
+  }
+    #logo{
+      
+       padding: 0%;
+       height: 200px;
+   }
+    div{
+       
+        width: 200px;
+        height: 600px;  
+    }
+    
+  
+        
+    #local-cartel{
+        padding-top: 30px;
+        width: 100%;
+        height: 1100px;
+        background-repeat: no-repeat;
+        background-size:  100%;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -50px;
+        
+    }
+ 
+   
+    .fotos-local{
+        align-content: center;
+        display: flex;
+        justify-content: center;  
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .local{
+        width:60%;
+        margin: 10px;
+        height: 200px;
+        border: 5px solid #f14ead;
+        border-radius: 5px;
+        
+        
+    }
+    #local-cartel img{
+        width: 250px;
+        height: 440px;
+        border-radius: 40px;
+        border: 4px solid #ff2bae ;
+    }
+
+    .cartelera{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+            margin-right: 30px;
+            margin-top: 20px;
+            margin-left: 0px;
+            width: 99%;
+            height:auto;
+            
+    }
+    h1{
+        text-align: center;
+        color: white;   
+        font-size: 40px;
+    }
+    hr{
+        background-color: white;
+        border: 2px solid white;
+    }
+    .info-entrada{
+        background-color: white;
+        color: black;
+        width: 346px;
+        height: 105px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-top: 100px;
+        margin-top: -117px;
+
+    }
+    
+    .info-entrada p{
+        font-size: small;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .info-entrada img{
+        width: 14px;
+        height: auto;
+    }
+    .info-entrada h2{
+        margin-left: 10px;
+        font-size:large;  
+    }
+    a #copa{
+        width: 50px;
+        height: auto;
+        margin: 5px;
+        color: #f0f0f0;
+        
+    }
+  
+    #otra{
+        width: 200px;
+        height: auto;
+    }
+    .entrada{
+     border-radius: 15px;
+        height: 130px;
+        width: 336px;
+        margin-left: 10px;
+        border: 5px solid white;
+    }
+     .merch{
+         background-color: white;
+         color: black;
+        text-align: center;
+        width:400px ;
+        
+        height: 350px;
+        border-radius: 50px;
+        justify-content: center;
+        margin-left: 100px;
+     }
+     .merch div{
+        position: relative;
+        right: 15px;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 120px;
+     }
+     .merch a{
+         text-decoration: none;
+         text-align: center;
+         background-color: black;
+         color: white;
+         padding: 7px;
+         border-radius: 20px;
+         top: 20px;
+         position: relative;
+     }
+     .merch img{
+         width: 70%;
+         height: auto;
+         border-top-right-radius: 50px;
+         border-top-left-radius: 50px;
+         margin-top: 10px;
+         
+     }
+    a{
+    text-decoration: none;
+    }
+    #info-entrada p{
+        color: black;
+        
+    }
+    #info-entrada {
+        background-color: rgba(178, 178, 178, 0.677);
+        display:flex;
+        justify-content:center ;
+        width: 99%;
+        height: 150px;
+        border-radius: 20px;
+        color: black;
+        margin-left: -10px;
+    }
+    
+    #info-entrada .icon{
+        width:10%;
+        height: auto;
+        
+       
+    }
+    .entrada-principal {
+        width: 80%;
+        height: 200px;
+        border-radius: 40px;
+        margin-top: -110px;
+        margin-bottom: 10px;
+    }
+    #numero{
+      height: 60px;
+      width: 60px;
+      
+    }
+    form{
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(228, 228, 228, 0.677);
+    color: black;
+    border-radius: 70px;
+    width: 80%;
+    }
+    label, input{
+        
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+        
+    #info-personal h2{
+        font-size: xx-large;
+    
+    }
+    
+    .compra-aqui-J div{
+        background-color: rgba(255, 255, 255, 0.677);
+        width: 80%;
+        height: 15%;
+        margin-bottom: 30px;
+        padding: 20px;
+        left: 3%;
+        position:relative;
+        border-radius: 20px;
+        border: 2px solid white;
+        color: yellow;
+    }
+    .compra-aqui-J div{
+        background-color: rgba(255, 255, 255, 0.677);
+        width: 80%;
+        height: 15%;
+        margin-bottom: 30px;
+        padding: 20px;
+        left: 3%;
+        position:relative;
+        border-radius: 20px;
+        border: 2px solid white;
+        color: yellow;
+    }
+    .compra-aqui-J div{
+        width: 80%; 
+        margin-bottom: 30px;
+        padding: 20px;
+        left: 3%;
+    }
+    .compra-aqui-V div{
+        width: 80%; 
+        margin-bottom: 30px;
+        padding: 20px;
+        left: 3%;
+    }
+    .compra-aqui-D div{
+        width: 80%; 
+        margin-bottom: 30px;
+        padding: 20px;
+        left: 3%;
+    }
+    .compra-aqui-S div{
+        width: 80%; 
+        margin-bottom: 30px;
+        padding: 20px;
+        left: 3%;
+    }
+  
+    
+    iframe{
+        border-radius: 50px;
+    }
+    .contacto{
+        margin:1px;
+    }
+    #info{
+        margin-left: 40px;
+    }
+}
