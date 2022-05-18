@@ -519,12 +519,12 @@ iframe{
          background-color: white;
          color: black;
         text-align: center;
-        width:70px ;
+        width:400px ;
         
         height: 350px;
         border-radius: 50px;
         justify-content: center;
-        margin-left: 100px;
+        margin-left: 10px;
      }
      .merch div{
         position: relative;
